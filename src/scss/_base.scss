@@ -1,0 +1,20 @@
+html, body{
+  padding:0;
+  margin: auto;
+  background-color: $bcg-white;
+
+  header, footer, section {
+    width:90%
+  }
+  header ul{
+    width: 100%;
+    display: table;
+    li {
+      display: table-cell;
+      height: 40px;
+    }
+  }
+  section {
+    text-align: center;
+  }
+}
